@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /no-offer
+
+Sitemap: https://cimabox.com/sitemap.xml

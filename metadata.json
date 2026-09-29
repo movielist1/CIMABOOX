@@ -1,0 +1,6 @@
+{
+  "name": "CIMA CLOUD",
+  "description": "Official website and conversion funnel for CIMA CLOUD streaming app. Discover movies, series, anime, and entertainment for Android and iPhone.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

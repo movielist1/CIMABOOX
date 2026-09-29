@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download CIMABOX — Google Play &amp; App Store</title>
+  <meta name="description" content="Your download is ready. Install CIMABOX directly from Google Play or the Apple App Store for mobile streaming.">
+  <link rel="canonical" href="https://cimabox.com/download">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cimabox.com/download">
+  <meta property="og:title" content="Download CIMABOX — Google Play &amp; App Store">
+  <meta property="og:description" content="Your download is ready. Install CIMABOX directly from Google Play or the Apple App Store for mobile streaming.">
+  <meta property="og:image" content="https://cimabox.com/assets/images/cima_hero_phone_1790544231676.jpg">
+  <meta property="og:site_name" content="CIMABOX">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://cimabox.com/download">
+  <meta name="twitter:title" content="Download CIMABOX — Google Play &amp; App Store">
+  <meta name="twitter:description" content="Your download is ready. Install CIMABOX directly from Google Play or the Apple App Store for mobile streaming.">
+  <meta name="twitter:image" content="https://cimabox.com/assets/images/cima_hero_phone_1790544231676.jpg">
+
+  <!-- Schema.org SoftwareApplication JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "CIMABOX",
+    "operatingSystem": "Android, iOS",
+    "applicationCategory": "EntertainmentApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
+  <link rel="stylesheet" href="/assets/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <script src="/assets/config.js"></script>
+  <style>
+    .page-wrapper { max-width: 680px; margin: 3rem auto; padding: 0 1rem; text-align: center; }
+    .store-grid { display: flex; flex-direction: column; gap: 1rem; margin-top: 2rem; }
+    @media (min-width: 640px) { .store-grid { flex-direction: row; } }
+    .store-card { flex: 1; padding: 1.5rem; background: #111722; border: 1px solid rgba(255,255,255,0.1); border-radius: 1rem; text-align: left; transition: all 0.2s; cursor: pointer; }
+    .store-card:hover { background: #161D2B; border-color: rgba(124, 92, 255, 0.4); transform: translateY(-2px); }
+    .store-card.recommended { border: 2px solid #7C5CFF; background: linear-gradient(135deg, #161D2B 0%, #1E273A 100%); }
+    .badge-rec { font-size: 0.75rem; color: #A78BFA; font-weight: 600; margin-bottom: 0.5rem; display: block; }
+    /* Modal styles */
+    .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0, 0, 0, 0.85); backdrop-filter: blur(8px); z-index: 9999; align-items: center; justify-content: center; padding: 1rem; }
+    .modal-overlay.active { display: flex; }
+    .modal-box { background: #111722; border: 1px solid rgba(255,255,255,0.15); border-radius: 1.25rem; max-width: 500px; width: 100%; padding: 2rem; box-shadow: 0 25px 50px -12px rgba(124, 92, 255, 0.25); text-align: left; }
+    .notice-step { display: flex; align-items: center; gap: 0.75rem; padding: 0.75rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); border-radius: 0.75rem; margin-bottom: 0.5rem; font-size: 0.8125rem; }
+    .notice-num { width: 24px; height: 24px; border-radius: 6px; background: rgba(124,92,255,0.2); color: #A78BFA; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.75rem; flex-shrink: 0; }
+  </style>
+</head>
+<body>
+  <header style="padding: 1.25rem 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.06); display: flex; justify-content: space-between; align-items: center;">
+    <a href="/" style="font-family: 'Syne', sans-serif; font-weight: 700; font-size: 1.25rem; color: #FFFFFF;">CIMABOX</a>
+    <a href="/support" style="font-size: 0.875rem; color: #94A3B8;">Support</a>
+  </header>
+
+  <main class="page-wrapper">
+    <div style="margin-bottom: 2rem;">
+      <span style="display: inline-block; padding: 0.25rem 0.75rem; border-radius: 9999px; background: rgba(52, 211, 153, 0.1); border: 1px solid rgba(52, 211, 153, 0.3); color: #34D399; font-size: 0.75rem; font-weight: 600; margin-bottom: 1rem;">
+        Access Verified
+      </span>
+      <h1 style="font-size: 2.25rem; font-weight: 800; margin-bottom: 0.75rem;">Your download is ready.</h1>
+      <p style="color: #94A3B8; font-size: 1rem;">Choose the official store for your device.</p>
+    </div>
+
+    <div class="glass-card" style="padding: 2rem;">
+      <div id="storeContainer" class="store-grid">
+        <!-- Rendered dynamically by device script -->
+      </div>
+      <p style="font-size: 0.75rem; color: #94A3B8; margin-top: 1.5rem;">
+        Requires explicit click. No automated background installs or silent redirects.
+      </p>
+
+      <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.06);">
+        <button onclick="showAdvanceNoticeModal()" class="btn-primary" style="width: 100%; padding: 0.875rem; font-size: 0.875rem; font-weight: 700; cursor: pointer;">
+          UNLOCK DIRECT DOWNLOAD (VERIFICATION LOCKER)
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Advance Notice Modal -->
+  <div id="noticeModal" class="modal-overlay">
+    <div class="modal-box">
+      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.25rem;">
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+          <div style="width: 40px; height: 40px; border-radius: 10px; background: rgba(124,92,255,0.2); border: 1px solid rgba(124,92,255,0.4); display: flex; align-items: center; justify-content: center; color: #A78BFA; font-weight: 800;">
+            ✓
+          </div>
+          <div>
+            <span style="font-size: 0.7rem; color: #A78BFA; font-weight: 700; text-transform: uppercase;">Advance Notice</span>
+            <h2 style="font-family: 'Syne', sans-serif; font-size: 1.25rem; font-weight: 700; color: #FFF; margin: 0;">Verification Notice Before Download</h2>
+          </div>
+        </div>
+        <button onclick="closeAdvanceNoticeModal()" style="background: none; border: none; color: #94A3B8; font-size: 1.5rem; cursor: pointer; padding: 0.25rem;">&times;</button>
+      </div>
+
+      <div style="background: rgba(8,11,18,0.8); border: 1px solid rgba(255,255,255,0.08); border-radius: 0.75rem; padding: 1rem; margin-bottom: 1rem; font-size: 0.875rem; color: #CBD5E1; line-height: 1.5;">
+        To provide <strong>CIMABOX</strong> completely free and prevent automated bots, an official sponsor verification step will be displayed next.
+        <div style="margin-top: 0.5rem; font-size: 0.75rem; color: #94A3B8;">
+          OGAds recommends giving users advance notice before displaying the locker so you know exactly what to expect.
+        </div>
+      </div>
+
+      <div style="margin-bottom: 1rem;">
+        <div class="notice-step">
+          <div class="notice-num">1</div>
+          <div><strong style="color: #FFF;">Open Verification: </strong><span style="color: #94A3B8;">Click proceed to view eligible free sponsor activities.</span></div>
+        </div>
+        <div class="notice-step">
+          <div class="notice-num">2</div>
+          <div><strong style="color: #FFF;">Complete 1 Task: </strong><span style="color: #94A3B8;">Install a free app or answer a quick survey (takes ~30-60s).</span></div>
+        </div>
+        <div class="notice-step">
+          <div class="notice-num" style="background: rgba(52,211,153,0.2); color: #34D399;">3</div>
+          <div><strong style="color: #FFF;">Instant Unlock: </strong><span style="color: #94A3B8;">Your official high-speed download link starts immediately.</span></div>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 0.75rem; margin-top: 1.5rem;">
+        <button onclick="proceedToLocker()" class="btn-primary" style="flex: 1; padding: 0.875rem; font-size: 0.875rem; font-weight: 700; cursor: pointer;">
+          I UNDERSTAND — PROCEED TO VERIFICATION
+        </button>
+        <button onclick="closeAdvanceNoticeModal()" style="padding: 0.875rem 1rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 0.75rem; color: #CBD5E1; font-size: 0.8125rem; cursor: pointer;">
+          Cancel
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const ua = navigator.userAgent || '';
+    const isAndroid = /android/i.test(ua);
+    const isIos = /iPad|iPhone|iPod/.test(ua) || (navigator.maxTouchPoints && navigator.maxTouchPoints > 1);
+
+    function createGooglePlayCard(rec) {
+      return `
+        <div class="store-card ${rec ? 'recommended' : ''}" onclick="goToStore('google_play')">
+          ${rec ? '<span class="badge-rec">✓ Recommended for Android</span>' : ''}
+          <div style="font-size: 0.7rem; color: #94A3B8; text-transform: uppercase;">GET IT ON</div>
+          <div style="font-family: 'Syne', sans-serif; font-size: 1.25rem; font-weight: 700; color: #FFF;">Google Play</div>
+        </div>
+      `;
+    }
+
+    function createAppStoreCard(rec) {
+      return `
+        <div class="store-card ${rec ? 'recommended' : ''}" onclick="goToStore('app_store')">
+          ${rec ? '<span class="badge-rec">✓ Recommended for iOS</span>' : ''}
+          <div style="font-size: 0.7rem; color: #94A3B8; text-transform: uppercase;">DOWNLOAD ON THE</div>
+          <div style="font-family: 'Syne', sans-serif; font-size: 1.25rem; font-weight: 700; color: #FFF;">App Store</div>
+        </div>
+      `;
+    }
+
+    const container = document.getElementById('storeContainer');
+    if (isIos) {
+      container.innerHTML = createAppStoreCard(true) + createGooglePlayCard(false);
+    } else if (isAndroid) {
+      container.innerHTML = createGooglePlayCard(true) + createAppStoreCard(false);
+    } else {
+      container.innerHTML = createGooglePlayCard(false) + createAppStoreCard(false);
+    }
+
+    function showAdvanceNoticeModal() {
+      document.getElementById('noticeModal').classList.add('active');
+    }
+
+    function closeAdvanceNoticeModal() {
+      document.getElementById('noticeModal').classList.remove('active');
+    }
+
+    function proceedToLocker() {
+      const url = (window.CIMA_CONFIG && window.CIMA_CONFIG.ogadsLockerUrl) || 'https://appcomplete.org/cl/i/m5np5m';
+      window.location.href = url;
+    }
+
+    function goToStore(platform) {
+      const url = platform === 'google_play' ? window.CIMA_CONFIG.googlePlayUrl : window.CIMA_CONFIG.appStoreUrl;
+      if (url && url.trim() !== '') {
+        window.location.href = url;
+      } else {
+        // Show advance notice modal to offer verification unlock path
+        showAdvanceNoticeModal();
+      }
+    }
+  </script>
+</body>
+</html>
