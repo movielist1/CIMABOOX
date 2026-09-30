@@ -35,14 +35,10 @@ export const AppStoreButtons: React.FC<AppStoreButtonsProps> = ({ className = ''
     trackStoreClick(platform, targetUrl || 'unconfigured');
 
     if (!targetUrl || targetUrl.trim() === '') {
-      if (onOpenNotice) {
-        onOpenNotice();
-        return;
-      }
       setModalMessage(
         platform === 'google_play'
-          ? 'The official Google Play Store listing is currently being synchronized. You can unlock the direct verified installation package below.'
-          : 'The official Apple App Store listing is currently being synchronized. You can unlock the direct verified installation package below.'
+          ? 'The official Google Play Store listing URL is currently being published by the owner. Please check back shortly or contact support@cimabox.online.'
+          : 'The official Apple App Store listing URL is currently being published by the owner. Please check back shortly or contact support@cimabox.online.'
       );
       return;
     }

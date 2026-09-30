@@ -50,12 +50,12 @@ export interface CimaConfig {
 }
 
 export const CIMA_CONFIG: CimaConfig = {
-  // Official Store URLs (leave empty if pending store approval)
+  // Official Store URLs (leave empty until official store listings are published)
   googlePlayUrl: "",
   appStoreUrl: "",
 
   // Support Contact
-  supportEmail: "support@cimabox.com",
+  supportEmail: "support@cimabox.online",
 
   // OGAds Content Locker Configuration
   ogadsLockerId: "m5np5m",

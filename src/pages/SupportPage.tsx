@@ -13,7 +13,7 @@ const FAQS: FaqItem[] = [
   {
     category: 'download',
     question: 'How do I download the CIMABOX application?',
-    answer: 'Navigate to our official access page by clicking "GET THE APP". After reviewing the verification step, you will be directed to the download page where you can choose your official store (Google Play for Android or Apple App Store for iPhone).',
+    answer: 'Navigate to our official access page by clicking "Get CIMABOX" on the homepage. After reviewing the verification step, you will be directed to the download page where you can choose your official store (Google Play for Android or Apple App Store for iPhone).',
     badge: 'Popular'
   },
   {

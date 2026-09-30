@@ -15,15 +15,15 @@ export interface PageSeoConfig {
   schemaData?: Record<string, unknown>;
 }
 
-const DEFAULT_IMAGE = 'https://cimabox.com/assets/images/cima_app_showcase_1790544243306.jpg';
-const BASE_URL = 'https://cimabox.com';
+const DEFAULT_IMAGE = 'https://cimabox.online/assets/images/cima_app_showcase_1790544243306.jpg';
+const BASE_URL = 'https://cimabox.online';
 
 export const PAGE_SEO_METADATA: Record<string, PageSeoConfig> = {
   '/': {
     title: 'CIMABOX — Movies, Series, Anime & More',
     description: 'Discover CIMABOX, a mobile entertainment experience for movies, series, anime and more on Android and iPhone.',
     path: '/',
-    image: 'https://cimabox.com/assets/images/cima_app_showcase_1790544243306.jpg',
+    image: 'https://cimabox.online/assets/images/cima_app_showcase_1790544243306.jpg',
     type: 'website',
     schemaType: 'MobileApplication',
     schemaData: {
@@ -41,24 +41,24 @@ export const PAGE_SEO_METADATA: Record<string, PageSeoConfig> = {
     }
   },
   '/get': {
-    title: 'Get CIMABOX — Official Access Portal',
-    description: 'Continue to the access step to verify and download the official CIMABOX app for Android and iPhone.',
+    title: "You're One Step Away — Get CIMABOX",
+    description: 'Prepare to access the official CIMABOX app for Android and iPhone. Follow the verification instructions to continue to the download page.',
     path: '/get',
-    image: 'https://cimabox.com/assets/images/cima_hero_phone_1790544231676.jpg',
+    image: 'https://cimabox.online/assets/images/cima_hero_phone_1790544231676.jpg',
     type: 'website',
     schemaType: 'WebPage',
     schemaData: {
       '@context': 'https://schema.org',
       '@type': 'WebPage',
-      name: 'Get CIMABOX — Official Access Portal',
+      name: "You're One Step Away — Get CIMABOX",
       description: 'Continue to the access step to verify and download the official CIMABOX app.'
     }
   },
   '/download': {
-    title: 'Download CIMABOX — Google Play & App Store',
-    description: 'Your download is ready. Install CIMABOX directly from Google Play or the Apple App Store for mobile streaming.',
+    title: "You're Ready to Go — Download CIMABOX",
+    description: 'Download CIMABOX for your device. Choose Google Play for Android or the App Store for iPhone to install the official app.',
     path: '/download',
-    image: 'https://cimabox.com/assets/images/cima_hero_phone_1790544231676.jpg',
+    image: 'https://cimabox.online/assets/images/cima_hero_phone_1790544231676.jpg',
     type: 'website',
     schemaType: 'SoftwareApplication',
     schemaData: {
@@ -78,7 +78,7 @@ export const PAGE_SEO_METADATA: Record<string, PageSeoConfig> = {
     title: 'Support & Help Center — CIMABOX',
     description: 'Need help with CIMABOX? Find installation troubleshooting, access guidance, and FAQs for Android and iOS devices.',
     path: '/support',
-    image: 'https://cimabox.com/assets/images/cima_app_showcase_1790544243306.jpg',
+    image: 'https://cimabox.online/assets/images/cima_app_showcase_1790544243306.jpg',
     type: 'website',
     schemaType: 'FAQPage',
     schemaData: {
@@ -90,7 +90,7 @@ export const PAGE_SEO_METADATA: Record<string, PageSeoConfig> = {
           name: 'How do I download the CIMABOX application?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Click GET THE APP to complete the access verification step, then select Google Play or the Apple App Store on the download page.'
+            text: 'Click Get CIMABOX on the homepage, continue through the access preparation step, and then select your official store on the download page.'
           }
         },
         {
@@ -108,21 +108,21 @@ export const PAGE_SEO_METADATA: Record<string, PageSeoConfig> = {
     title: 'Offer Status & Access Help — CIMABOX',
     description: 'Check available access options or retry downloading CIMABOX for your device and region.',
     path: '/no-offer',
-    image: 'https://cimabox.com/assets/images/cima_hero_phone_1790544231676.jpg',
+    image: 'https://cimabox.online/assets/images/cima_hero_phone_1790544231676.jpg',
     type: 'website'
   },
   '/privacy': {
     title: 'Privacy Policy — CIMABOX',
     description: 'Review the official Privacy Policy for CIMABOX, covering device data, analytics, and third-party promotional services.',
     path: '/privacy',
-    image: 'https://cimabox.com/assets/images/cima_app_showcase_1790544243306.jpg',
+    image: 'https://cimabox.online/assets/images/cima_app_showcase_1790544243306.jpg',
     type: 'article'
   },
   '/terms': {
     title: 'Terms of Service — CIMABOX',
     description: 'Official Terms of Service for CIMABOX website and mobile entertainment application access.',
     path: '/terms',
-    image: 'https://cimabox.com/assets/images/cima_app_showcase_1790544243306.jpg',
+    image: 'https://cimabox.online/assets/images/cima_app_showcase_1790544243306.jpg',
     type: 'article'
   }
 };

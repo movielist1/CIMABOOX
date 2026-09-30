@@ -32,12 +32,8 @@ export const Header: React.FC<HeaderProps> = ({ currentPath, navigate, onOpenDow
   };
 
   const handleGetAppClick = () => {
-    trackCTA('header_download_click', '/get');
-    if (onOpenDownloadNotice) {
-      onOpenDownloadNotice();
-    } else {
-      navigate('/get');
-    }
+    trackCTA('header_get_cimabox', '/get');
+    navigate('/get');
   };
 
   return (
@@ -104,8 +100,7 @@ export const Header: React.FC<HeaderProps> = ({ currentPath, navigate, onOpenDow
             onClick={handleGetAppClick}
             className="hidden sm:inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-[#7C5CFF] to-[#6342E8] px-5 py-2.5 text-xs font-semibold tracking-wide text-white uppercase shadow-md shadow-[#7C5CFF]/20 transition-all duration-200 hover:brightness-110 hover:shadow-lg hover:shadow-[#7C5CFF]/30 active:scale-[0.98]"
           >
-            <Download className="h-3.5 w-3.5" />
-            <span>DOWNLOAD</span>
+            <span>Get CIMABOX</span>
             <ArrowRight className="h-3.5 w-3.5" />
           </button>
 
@@ -156,10 +151,9 @@ export const Header: React.FC<HeaderProps> = ({ currentPath, navigate, onOpenDow
                   setMobileMenuOpen(false);
                   handleGetAppClick();
                 }}
-                className="flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-[#7C5CFF] to-[#6342E8] py-3 text-sm font-semibold tracking-wide text-white uppercase shadow-md shadow-[#7C5CFF]/20"
+                className="flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-[#7C5CFF] to-[#6342E8] py-3.5 text-sm font-semibold tracking-wide text-white uppercase shadow-md shadow-[#7C5CFF]/20"
               >
-                <Download className="h-4 w-4" />
-                <span>DOWNLOAD CIMABOX</span>
+                <span>Get CIMABOX</span>
                 <ArrowRight className="h-4 w-4" />
               </button>
             </div>

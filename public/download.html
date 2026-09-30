@@ -3,24 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Download CIMABOX — Google Play &amp; App Store</title>
-  <meta name="description" content="Your download is ready. Install CIMABOX directly from Google Play or the Apple App Store for mobile streaming.">
-  <link rel="canonical" href="https://cimabox.com/download">
+  <title>You're Ready to Go — Download CIMABOX</title>
+  <meta name="description" content="Download CIMABOX for your device. Choose Google Play for Android or the App Store for iPhone to install the official app.">
+  <link rel="canonical" href="https://cimabox.online/download">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://cimabox.com/download">
-  <meta property="og:title" content="Download CIMABOX — Google Play &amp; App Store">
-  <meta property="og:description" content="Your download is ready. Install CIMABOX directly from Google Play or the Apple App Store for mobile streaming.">
-  <meta property="og:image" content="https://cimabox.com/assets/images/cima_hero_phone_1790544231676.jpg">
+  <meta property="og:url" content="https://cimabox.online/download">
+  <meta property="og:title" content="You're Ready to Go — Download CIMABOX">
+  <meta property="og:description" content="Download CIMABOX for your device. Choose Google Play for Android or the App Store for iPhone to install the official app.">
+  <meta property="og:image" content="https://cimabox.online/assets/images/cima_hero_phone_1790544231676.jpg">
   <meta property="og:site_name" content="CIMABOX">
 
   <!-- Twitter / X -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://cimabox.com/download">
-  <meta name="twitter:title" content="Download CIMABOX — Google Play &amp; App Store">
-  <meta name="twitter:description" content="Your download is ready. Install CIMABOX directly from Google Play or the Apple App Store for mobile streaming.">
-  <meta name="twitter:image" content="https://cimabox.com/assets/images/cima_hero_phone_1790544231676.jpg">
+  <meta name="twitter:url" content="https://cimabox.online/download">
+  <meta name="twitter:title" content="You're Ready to Go — Download CIMABOX">
+  <meta name="twitter:description" content="Download CIMABOX for your device. Choose Google Play for Android or the App Store for iPhone to install the official app.">
+  <meta name="twitter:image" content="https://cimabox.online/assets/images/cima_hero_phone_1790544231676.jpg">
 
   <!-- Schema.org SoftwareApplication JSON-LD -->
   <script type="application/ld+json">
@@ -37,25 +37,132 @@
     }
   }
   </script>
-  <link rel="stylesheet" href="/assets/styles.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
   <script src="/assets/config.js"></script>
+
   <style>
-    .page-wrapper { max-width: 680px; margin: 3rem auto; padding: 0 1rem; text-align: center; }
-    .store-grid { display: flex; flex-direction: column; gap: 1rem; margin-top: 2rem; }
-    @media (min-width: 640px) { .store-grid { flex-direction: row; } }
-    .store-card { flex: 1; padding: 1.5rem; background: #111722; border: 1px solid rgba(255,255,255,0.1); border-radius: 1rem; text-align: left; transition: all 0.2s; cursor: pointer; }
-    .store-card:hover { background: #161D2B; border-color: rgba(124, 92, 255, 0.4); transform: translateY(-2px); }
-    .store-card.recommended { border: 2px solid #7C5CFF; background: linear-gradient(135deg, #161D2B 0%, #1E273A 100%); }
-    .badge-rec { font-size: 0.75rem; color: #A78BFA; font-weight: 600; margin-bottom: 0.5rem; display: block; }
-    /* Modal styles */
-    .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0, 0, 0, 0.85); backdrop-filter: blur(8px); z-index: 9999; align-items: center; justify-content: center; padding: 1rem; }
-    .modal-overlay.active { display: flex; }
-    .modal-box { background: #111722; border: 1px solid rgba(255,255,255,0.15); border-radius: 1.25rem; max-width: 500px; width: 100%; padding: 2rem; box-shadow: 0 25px 50px -12px rgba(124, 92, 255, 0.25); text-align: left; }
-    .notice-step { display: flex; align-items: center; gap: 0.75rem; padding: 0.75rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); border-radius: 0.75rem; margin-bottom: 0.5rem; font-size: 0.8125rem; }
-    .notice-num { width: 24px; height: 24px; border-radius: 6px; background: rgba(124,92,255,0.2); color: #A78BFA; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.75rem; flex-shrink: 0; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: #080B12;
+      color: #F8FAFC;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+    a { color: inherit; text-decoration: none; }
+    .page-wrapper {
+      max-width: 620px;
+      margin: 3rem auto 4rem;
+      padding: 0 1.25rem;
+      width: 100%;
+      text-align: center;
+    }
+    .verified-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.35rem 0.85rem;
+      border-radius: 9999px;
+      background: rgba(16, 185, 129, 0.1);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      color: #34D399;
+      font-size: 0.75rem;
+      font-weight: 600;
+      margin-bottom: 1.25rem;
+    }
+    h1 {
+      font-family: 'Syne', sans-serif;
+      font-size: 2.25rem;
+      font-weight: 800;
+      color: #FFFFFF;
+      margin-bottom: 0.5rem;
+      line-height: 1.15;
+    }
+    .subhead {
+      color: #94A3B8;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+    .card {
+      background: rgba(17, 23, 34, 0.75);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 1.5rem;
+      padding: 2rem;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    }
+    .store-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    @media (min-width: 580px) {
+      .store-grid { flex-direction: row; }
+    }
+    .store-btn {
+      flex: 1;
+      padding: 1.25rem 1.5rem;
+      background: #111722;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 1.25rem;
+      text-align: left;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      transition: all 0.2s ease;
+      color: #FFFFFF;
+    }
+    .store-btn:hover {
+      background: #161D2B;
+      border-color: rgba(124, 92, 255, 0.4);
+      transform: translateY(-2px);
+    }
+    .store-btn.recommended {
+      border: 2px solid #7C5CFF;
+      background: linear-gradient(135deg, #161D2B 0%, #1E273A 100%);
+      box-shadow: 0 10px 25px rgba(124, 92, 255, 0.25);
+    }
+    .store-icon {
+      width: 38px;
+      height: 38px;
+      flex-shrink: 0;
+    }
+    .store-label {
+      font-size: 0.68rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #94A3B8;
+      display: block;
+    }
+    .store-name {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #FFFFFF;
+    }
+    .notice-text {
+      font-size: 0.75rem;
+      color: #64748B;
+      margin-top: 1.5rem;
+      line-height: 1.45;
+    }
+    .status-alert {
+      display: none;
+      margin-top: 1.25rem;
+      padding: 1rem;
+      background: rgba(124, 92, 255, 0.1);
+      border: 1px solid rgba(124, 92, 255, 0.25);
+      border-radius: 1rem;
+      font-size: 0.825rem;
+      color: #CBD5E1;
+      text-align: left;
+    }
   </style>
 </head>
 <body>
@@ -65,134 +172,84 @@
   </header>
 
   <main class="page-wrapper">
-    <div style="margin-bottom: 2rem;">
-      <span style="display: inline-block; padding: 0.25rem 0.75rem; border-radius: 9999px; background: rgba(52, 211, 153, 0.1); border: 1px solid rgba(52, 211, 153, 0.3); color: #34D399; font-size: 0.75rem; font-weight: 600; margin-bottom: 1rem;">
-        Access Verified
-      </span>
-      <h1 style="font-size: 2.25rem; font-weight: 800; margin-bottom: 0.75rem;">Your download is ready.</h1>
-      <p style="color: #94A3B8; font-size: 1rem;">Choose the official store for your device.</p>
+    <div class="verified-badge">
+      <span>✓ Access Verified</span>
     </div>
 
-    <div class="glass-card" style="padding: 2rem;">
-      <div id="storeContainer" class="store-grid">
-        <!-- Rendered dynamically by device script -->
-      </div>
-      <p style="font-size: 0.75rem; color: #94A3B8; margin-top: 1.5rem;">
-        Requires explicit click. No automated background installs or silent redirects.
-      </p>
+    <h1>You're Ready to Go</h1>
+    <p class="subhead">Download CIMABOX for your device.</p>
 
-      <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.06);">
-        <button onclick="showAdvanceNoticeModal()" class="btn-primary" style="width: 100%; padding: 0.875rem; font-size: 0.875rem; font-weight: 700; cursor: pointer;">
-          UNLOCK DIRECT DOWNLOAD (VERIFICATION LOCKER)
+    <div class="card">
+      <div id="storeGrid" class="store-grid">
+        <!-- Google Play -->
+        <button id="googlePlayBtn" class="store-btn" onclick="handleStoreClick('google_play')">
+          <svg class="store-icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1z" fill="#ea4335"/>
+            <path d="M47 38.8l234.4 234.4L47 507.6c-7.3-8.8-11.8-20.2-11.8-32.8V71.6c0-12.6 4.5-24 11.8-32.8z" fill="#4285f4"/>
+            <path d="M47 473.2c0 12.6 4.5 24 11.8 32.8l222.6-222.6-60.1-60.1L47 473.2z" fill="#34a853"/>
+            <path d="M424.3 227.1L355.6 187l-74.2 74.2 74.2 74.2 70.4-40.4c17.8-10.2 28.8-28.7 28.8-49s-11.1-38.7-30.5-48.9z" fill="#fbbc04"/>
+          </svg>
+          <div>
+            <span class="store-label">GET IT ON</span>
+            <div class="store-name">Google Play</div>
+          </div>
+        </button>
+
+        <!-- App Store -->
+        <button id="appStoreBtn" class="store-btn" onclick="handleStoreClick('app_store')">
+          <svg class="store-icon" viewBox="0 0 170 170" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
+            <path d="M150.37 130.25c-2.45 5.66-5.35 10.87-8.71 15.66-4.58 6.53-8.33 11.05-11.22 13.56-4.48 4.12-9.28 6.23-14.42 6.35-3.69 0-8.14-1.05-13.32-3.18-5.19-2.12-9.97-3.17-14.34-3.17-4.58 0-9.49 1.05-14.75 3.17-5.26 2.13-9.5 3.24-12.74 3.35-4.35.13-9.16-1.9-14.42-6.08-3.69-3.08-7.7-7.94-12.04-14.59-6.3-9.69-11.39-20.91-15.28-33.68-3.89-12.76-5.83-25.07-5.83-36.93 0-14.28 3.52-26.23 10.56-35.85 7.04-9.62 16.03-14.48 26.97-14.59 5.65 0 11.55 1.54 17.7 4.62 6.15 3.08 10.3 4.67 12.45 4.77 1.84 0 6.13-1.64 12.87-4.92 6.74-3.28 12.79-4.7 18.15-4.26 13.9.78 24.97 5.66 33.21 14.65-12.18 7.37-18.15 17.52-17.91 30.45.24 10.15 4.15 18.77 11.72 25.86 7.57 7.09 16.71 11.13 27.42 12.13-2.22 6.72-4.8 13.06-7.74 19.03zM119.22 33.02c0-7.39 2.65-14.28 7.95-20.67 5.3-6.39 11.89-10.42 19.78-12.09.43 2.17.65 4.35.65 6.52 0 7.39-2.76 14.42-8.29 21.09-5.53 6.67-12.19 10.58-19.98 11.74-.07-2.17-.11-4.37-.11-6.59z"/>
+          </svg>
+          <div>
+            <span class="store-label">DOWNLOAD ON THE</span>
+            <div class="store-name">App Store</div>
+          </div>
         </button>
       </div>
+
+      <div id="statusAlert" class="status-alert"></div>
+
+      <p class="notice-text">
+        Requires explicit click. No automated background installs or silent redirects.
+      </p>
+    </div>
+
+    <div style="margin-top: 2rem; font-size: 0.8rem; color: #64748B;">
+      <span>Need help installing? </span>
+      <a href="/support" style="color: #A78BFA; text-decoration: underline;">Visit Support &amp; Help Center</a>
     </div>
   </main>
 
-  <!-- Advance Notice Modal -->
-  <div id="noticeModal" class="modal-overlay">
-    <div class="modal-box">
-      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.25rem;">
-        <div style="display: flex; align-items: center; gap: 0.75rem;">
-          <div style="width: 40px; height: 40px; border-radius: 10px; background: rgba(124,92,255,0.2); border: 1px solid rgba(124,92,255,0.4); display: flex; align-items: center; justify-content: center; color: #A78BFA; font-weight: 800;">
-            ✓
-          </div>
-          <div>
-            <span style="font-size: 0.7rem; color: #A78BFA; font-weight: 700; text-transform: uppercase;">Advance Notice</span>
-            <h2 style="font-family: 'Syne', sans-serif; font-size: 1.25rem; font-weight: 700; color: #FFF; margin: 0;">Verification Notice Before Download</h2>
-          </div>
-        </div>
-        <button onclick="closeAdvanceNoticeModal()" style="background: none; border: none; color: #94A3B8; font-size: 1.5rem; cursor: pointer; padding: 0.25rem;">&times;</button>
-      </div>
-
-      <div style="background: rgba(8,11,18,0.8); border: 1px solid rgba(255,255,255,0.08); border-radius: 0.75rem; padding: 1rem; margin-bottom: 1rem; font-size: 0.875rem; color: #CBD5E1; line-height: 1.5;">
-        To provide <strong>CIMABOX</strong> completely free and prevent automated bots, an official sponsor verification step will be displayed next.
-        <div style="margin-top: 0.5rem; font-size: 0.75rem; color: #94A3B8;">
-          OGAds recommends giving users advance notice before displaying the locker so you know exactly what to expect.
-        </div>
-      </div>
-
-      <div style="margin-bottom: 1rem;">
-        <div class="notice-step">
-          <div class="notice-num">1</div>
-          <div><strong style="color: #FFF;">Open Verification: </strong><span style="color: #94A3B8;">Click proceed to view eligible free sponsor activities.</span></div>
-        </div>
-        <div class="notice-step">
-          <div class="notice-num">2</div>
-          <div><strong style="color: #FFF;">Complete 1 Task: </strong><span style="color: #94A3B8;">Install a free app or answer a quick survey (takes ~30-60s).</span></div>
-        </div>
-        <div class="notice-step">
-          <div class="notice-num" style="background: rgba(52,211,153,0.2); color: #34D399;">3</div>
-          <div><strong style="color: #FFF;">Instant Unlock: </strong><span style="color: #94A3B8;">Your official high-speed download link starts immediately.</span></div>
-        </div>
-      </div>
-
-      <div style="display: flex; gap: 0.75rem; margin-top: 1.5rem;">
-        <button onclick="proceedToLocker()" class="btn-primary" style="flex: 1; padding: 0.875rem; font-size: 0.875rem; font-weight: 700; cursor: pointer;">
-          I UNDERSTAND — PROCEED TO VERIFICATION
-        </button>
-        <button onclick="closeAdvanceNoticeModal()" style="padding: 0.875rem 1rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 0.75rem; color: #CBD5E1; font-size: 0.8125rem; cursor: pointer;">
-          Cancel
-        </button>
-      </div>
-    </div>
-  </div>
-
   <script>
-    const ua = navigator.userAgent || '';
-    const isAndroid = /android/i.test(ua);
-    const isIos = /iPad|iPhone|iPod/.test(ua) || (navigator.maxTouchPoints && navigator.maxTouchPoints > 1);
+    (function detectDevice() {
+      var ua = navigator.userAgent || '';
+      var isAndroid = /android/i.test(ua);
+      var isIos = /iPad|iPhone|iPod/.test(ua) || (navigator.maxTouchPoints > 1 && /Macintosh/.test(ua));
 
-    function createGooglePlayCard(rec) {
-      return `
-        <div class="store-card ${rec ? 'recommended' : ''}" onclick="goToStore('google_play')">
-          ${rec ? '<span class="badge-rec">✓ Recommended for Android</span>' : ''}
-          <div style="font-size: 0.7rem; color: #94A3B8; text-transform: uppercase;">GET IT ON</div>
-          <div style="font-family: 'Syne', sans-serif; font-size: 1.25rem; font-weight: 700; color: #FFF;">Google Play</div>
-        </div>
-      `;
-    }
+      var gpBtn = document.getElementById('googlePlayBtn');
+      var asBtn = document.getElementById('appStoreBtn');
 
-    function createAppStoreCard(rec) {
-      return `
-        <div class="store-card ${rec ? 'recommended' : ''}" onclick="goToStore('app_store')">
-          ${rec ? '<span class="badge-rec">✓ Recommended for iOS</span>' : ''}
-          <div style="font-size: 0.7rem; color: #94A3B8; text-transform: uppercase;">DOWNLOAD ON THE</div>
-          <div style="font-family: 'Syne', sans-serif; font-size: 1.25rem; font-weight: 700; color: #FFF;">App Store</div>
-        </div>
-      `;
-    }
-
-    const container = document.getElementById('storeContainer');
-    if (isIos) {
-      container.innerHTML = createAppStoreCard(true) + createGooglePlayCard(false);
-    } else if (isAndroid) {
-      container.innerHTML = createGooglePlayCard(true) + createAppStoreCard(false);
-    } else {
-      container.innerHTML = createGooglePlayCard(false) + createAppStoreCard(false);
-    }
-
-    function showAdvanceNoticeModal() {
-      document.getElementById('noticeModal').classList.add('active');
-    }
-
-    function closeAdvanceNoticeModal() {
-      document.getElementById('noticeModal').classList.remove('active');
-    }
-
-    function proceedToLocker() {
-      const url = (window.CIMA_CONFIG && window.CIMA_CONFIG.ogadsLockerUrl) || 'https://appcomplete.org/cl/i/m5np5m';
-      window.location.href = url;
-    }
-
-    function goToStore(platform) {
-      const url = platform === 'google_play' ? window.CIMA_CONFIG.googlePlayUrl : window.CIMA_CONFIG.appStoreUrl;
-      if (url && url.trim() !== '') {
-        window.location.href = url;
-      } else {
-        // Show advance notice modal to offer verification unlock path
-        showAdvanceNoticeModal();
+      if (isAndroid && gpBtn) {
+        gpBtn.classList.add('recommended');
+      } else if (isIos && asBtn) {
+        asBtn.classList.add('recommended');
       }
+    })();
+
+    function handleStoreClick(platform) {
+      var cfg = window.CIMA_CONFIG || {};
+      var targetUrl = platform === 'google_play' ? cfg.googlePlayUrl : cfg.appStoreUrl;
+      var alertBox = document.getElementById('statusAlert');
+
+      if (!targetUrl || targetUrl.trim() === '') {
+        alertBox.style.display = 'block';
+        alertBox.innerHTML = platform === 'google_play'
+          ? '<strong>Notice:</strong> The official Google Play Store listing URL is currently being published by the owner. Please check back shortly or contact <a href="mailto:support@cimabox.online" style="color:#A78BFA;text-decoration:underline;">support@cimabox.online</a>.'
+          : '<strong>Notice:</strong> The official Apple App Store listing URL is currently being published by the owner. Please check back shortly or contact <a href="mailto:support@cimabox.online" style="color:#A78BFA;text-decoration:underline;">support@cimabox.online</a>.';
+        return;
+      }
+
+      window.location.href = targetUrl;
     }
   </script>
 </body>

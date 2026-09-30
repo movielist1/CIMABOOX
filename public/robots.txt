@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /no-offer
 
-Sitemap: https://cimabox.com/sitemap.xml
+Sitemap: https://cimabox.online/sitemap.xml

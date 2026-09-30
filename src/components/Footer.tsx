@@ -40,7 +40,7 @@ export const Footer: React.FC<FooterProps> = ({ navigate }) => {
               A modern entertainment and streaming application designed to help you discover movies, series, anime, and curated content from your phone.
             </p>
             <div className="flex items-center gap-3 text-xs text-slate-500">
-              <span>Official Website: cimabox.com</span>
+              <span>Official Website: cimabox.online</span>
               <span aria-hidden="true">·</span>
               <span>Android &amp; iOS</span>
             </div>
