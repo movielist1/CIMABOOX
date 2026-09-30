@@ -15,7 +15,7 @@ export interface PageSeoConfig {
   schemaData?: Record<string, unknown>;
 }
 
-const DEFAULT_IMAGE = 'https://cimabox.online/assets/images/cima_app_showcase_1790544243306.jpg';
+const DEFAULT_IMAGE = 'https://cimabox.online/assets/images/cima_app_showcase_1790810491990.jpg';
 const BASE_URL = 'https://cimabox.online';
 
 export const PAGE_SEO_METADATA: Record<string, PageSeoConfig> = {
@@ -23,7 +23,7 @@ export const PAGE_SEO_METADATA: Record<string, PageSeoConfig> = {
     title: 'CIMABOX — Movies, Series, Anime & More',
     description: 'Discover CIMABOX, a mobile entertainment experience for movies, series, anime and more on Android and iPhone.',
     path: '/',
-    image: 'https://cimabox.online/assets/images/cima_app_showcase_1790544243306.jpg',
+    image: 'https://cimabox.online/assets/images/cima_app_showcase_1790810491990.jpg',
     type: 'website',
     schemaType: 'MobileApplication',
     schemaData: {
@@ -44,7 +44,7 @@ export const PAGE_SEO_METADATA: Record<string, PageSeoConfig> = {
     title: "You're One Step Away — Get CIMABOX",
     description: 'Prepare to access the official CIMABOX app for Android and iPhone. Follow the verification instructions to continue to the download page.',
     path: '/get',
-    image: 'https://cimabox.online/assets/images/cima_hero_phone_1790544231676.jpg',
+    image: 'https://cimabox.online/assets/images/cima_hero_phone_1790810480973.jpg',
     type: 'website',
     schemaType: 'WebPage',
     schemaData: {
@@ -58,7 +58,7 @@ export const PAGE_SEO_METADATA: Record<string, PageSeoConfig> = {
     title: "You're Ready to Go — Download CIMABOX",
     description: 'Download CIMABOX for your device. Choose Google Play for Android or the App Store for iPhone to install the official app.',
     path: '/download',
-    image: 'https://cimabox.online/assets/images/cima_hero_phone_1790544231676.jpg',
+    image: 'https://cimabox.online/assets/images/cima_hero_phone_1790810480973.jpg',
     type: 'website',
     schemaType: 'SoftwareApplication',
     schemaData: {
@@ -78,7 +78,7 @@ export const PAGE_SEO_METADATA: Record<string, PageSeoConfig> = {
     title: 'Support & Help Center — CIMABOX',
     description: 'Need help with CIMABOX? Find installation troubleshooting, access guidance, and FAQs for Android and iOS devices.',
     path: '/support',
-    image: 'https://cimabox.online/assets/images/cima_app_showcase_1790544243306.jpg',
+    image: 'https://cimabox.online/assets/images/cima_app_showcase_1790810491990.jpg',
     type: 'website',
     schemaType: 'FAQPage',
     schemaData: {
@@ -108,21 +108,21 @@ export const PAGE_SEO_METADATA: Record<string, PageSeoConfig> = {
     title: 'Offer Status & Access Help — CIMABOX',
     description: 'Check available access options or retry downloading CIMABOX for your device and region.',
     path: '/no-offer',
-    image: 'https://cimabox.online/assets/images/cima_hero_phone_1790544231676.jpg',
+    image: 'https://cimabox.online/assets/images/cima_hero_phone_1790810480973.jpg',
     type: 'website'
   },
   '/privacy': {
     title: 'Privacy Policy — CIMABOX',
     description: 'Review the official Privacy Policy for CIMABOX, covering device data, analytics, and third-party promotional services.',
     path: '/privacy',
-    image: 'https://cimabox.online/assets/images/cima_app_showcase_1790544243306.jpg',
+    image: 'https://cimabox.online/assets/images/cima_app_showcase_1790810491990.jpg',
     type: 'article'
   },
   '/terms': {
     title: 'Terms of Service — CIMABOX',
     description: 'Official Terms of Service for CIMABOX website and mobile entertainment application access.',
     path: '/terms',
-    image: 'https://cimabox.online/assets/images/cima_app_showcase_1790544243306.jpg',
+    image: 'https://cimabox.online/assets/images/cima_app_showcase_1790810491990.jpg',
     type: 'article'
   }
 };

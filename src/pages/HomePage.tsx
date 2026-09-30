@@ -3,8 +3,8 @@ import { Film, Tv, PlaySquare, Zap, ArrowRight, ShieldCheck, Smartphone, Downloa
 import { trackCTA } from '../utils/tracking';
 
 // Generated asset paths
-import heroPhoneMockup from '../assets/images/cima_hero_phone_1790544231676.jpg';
-import appShowcaseImage from '../assets/images/cima_app_showcase_1790544243306.jpg';
+import heroPhoneMockup from '../assets/images/cima_hero_phone_1790810480973.jpg';
+import appShowcaseImage from '../assets/images/cima_app_showcase_1790810491990.jpg';
 
 interface HomePageProps {
   navigate: (path: string) => void;
