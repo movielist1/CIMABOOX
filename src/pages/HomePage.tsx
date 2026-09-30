@@ -44,7 +44,7 @@ export const HomePage: React.FC<HomePageProps> = ({ navigate }) => {
               </div>
 
               {/* 1. What CIMABOX is */}
-              <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.1] text-balance">
+              <h1 className="font-display text-[1.75rem] min-[360px]:text-[1.9rem] min-[390px]:text-[2.05rem] min-[430px]:text-[2.2rem] sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.12] sm:leading-[1.1] text-balance">
                 Your entertainment. <br className="hidden sm:inline" />
                 <span className="bg-gradient-to-r from-white via-slate-100 to-[#A78BFA] bg-clip-text text-transparent">
                   Wherever you go.
